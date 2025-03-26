@@ -1,5 +1,3 @@
----
-
 ### **1. Core Pseudo-Elements**
 | Pseudo-Element | Example | Description |
 |---------------|---------|-------------|
