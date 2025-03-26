@@ -27,11 +27,6 @@
 
 ---
 
-### **4. Shadow DOM Pseudo-Elements**
-| Pseudo-Element | Example | Description |
-|---------------|---------|-------------|
-| `::part()` | `custom-element::part(button) { color: red; }` | Styles **specific parts** of web components. |
-| `::slotted()` | `::slotted(p) { margin: 0; }` | Styles **slotted content** in web components. |
 
 ---
 
@@ -99,4 +94,3 @@ Most pseudo-elements work in modern browsers, but:
 | **Content** | `::before`, `::after`, `::marker` |
 | **Typography** | `::first-letter`, `::first-line`, `::selection` |
 | **Forms** | `::placeholder`, `::file-selector-button` |
-| **Shadow DOM** | `::part()`, `::slotted()` |
