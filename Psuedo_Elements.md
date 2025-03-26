@@ -22,8 +22,6 @@
 |---------------|---------|-------------|
 | `::backdrop` | `dialog::backdrop { background: rgba(0,0,0,0.5); }` | Styles the **background behind modals/dialogs**. |
 | `::file-selector-button` | `input[type="file"]::file-selector-button { background: #eee; }` | Styles the **button** in file inputs. |
-| `::grammar-error` | `::grammar-error { text-decoration: red wavy underline; }` | (Experimental) Styles grammar errors. |
-| `::spelling-error` | `::spelling-error { text-decoration: blue wavy underline; }` | (Experimental) Styles spelling errors. |
 
 ---
 
@@ -79,12 +77,6 @@ input::placeholder {
 }
 ```
 
----
-
-### **Browser Support**
-Most pseudo-elements work in modern browsers, but:
-- `::grammar-error`/`::spelling-error` are experimental.
-- `::part()`/`::slotted()` require Shadow DOM (web components).
 
 ---
 
