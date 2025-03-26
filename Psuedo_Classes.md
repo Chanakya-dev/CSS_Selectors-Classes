@@ -1,4 +1,3 @@
-Here’s a **comprehensive list of CSS pseudo-classes** along with brief explanations and examples of how they can be used:
 
 ---
 
